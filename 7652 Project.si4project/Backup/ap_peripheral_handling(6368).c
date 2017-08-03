@@ -476,7 +476,6 @@ void set_led_mode(LED_MODE_ENUM mode)
 				vibrator_turn_on();
 				OSTimeDly(15);
 				vibrator_turn_off();
-				OSTimeDly(15);
 			}
 
 			DBG_PRINT("led_type = LED_WAITING_RECORD\r\n");

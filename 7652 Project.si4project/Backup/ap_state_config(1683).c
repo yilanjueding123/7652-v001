@@ -65,7 +65,7 @@ void ap_state_config_default_set(void)
 #endif
 	ap_state_config_record_time_set(5);
 	//ap_state_config_pic_size_set(7);
-	ap_state_config_pic_size_set(9);			//720p
+	ap_state_config_pic_size_set(8);			//720p
     ap_state_config_md_set(0);
 	ap_state_config_capture_date_stamp_set(1);//设置为1表示拍照时显示水印，为0表示拍照时不显示水印
 	ap_state_config_date_stamp_set(1);//设置为1表示录像时显示水印，为0表示录像时不显示水印

@@ -353,7 +353,7 @@ void ap_audio_record_timer_draw(void)
 INT8S ap_audio_record_reply_action(STOR_SERV_FILEINFO * file_info_ptr)
 {
 	MEDIA_SOURCE	src;
-	INT32S			free_size = file_info_ptr->storage_free_size;
+	INT16S			free_size = file_info_ptr->storage_free_size;
 
 	if (file_info_ptr)
 	{

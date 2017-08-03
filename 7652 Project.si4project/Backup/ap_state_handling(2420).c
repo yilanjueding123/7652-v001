@@ -542,11 +542,6 @@ void ap_state_handling_power_off(void)
 	delay(50000);
 	delay(50000);
 	delay(50000);
-	delay(50000);
-	delay(50000);
-	delay(50000);
-	delay(50000);
-	delay(50000);
 	vibrator_turn_off();
 	ap_peripheral_night_mode_set(0);
 

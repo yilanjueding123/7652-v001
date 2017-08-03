@@ -1,3 +1,8 @@
----- FS_OS_GetDate Matches (2 in 2 files) ----
-fs_os.c (gplib\fs) line 62 : void FS_OS_GetDate(dosdate_t *dd)
-proto.h (gplib\fs\include) line 449 : void FS_OS_GetDate(dosdate_t *dd);
+---- ap_state_config_pic_size_get Matches (7 in 4 files) ----
+ap_setting_right_menu_active in ap_setting.c (application\task_state_handling\state_setting\src) : 			curr_tag = ap_state_config_pic_size_get();
+ap_state_config_pic_size_set in ap_state_config.c (application\task_state_handling\src) : 	if (pic_size != ap_state_config_pic_size_get()) {
+ap_state_config.c (application\task_state_handling\src) line 411 : INT8U ap_state_config_pic_size_get(void)
+ap_state_config.h (application\task_state_handling\inc) line 37 : extern INT8U ap_state_config_pic_size_get(void);
+ap_video_capture_mode_switch in ap_video_preview.c (application\task_state_handling\state_video_preview\src) : 		video_resolution	= ap_state_config_pic_size_get();
+video_capture_resolution_display in ap_video_preview.c (application\task_state_handling\state_video_preview\src) : 	temp				= ap_state_config_pic_size_get();
+cal_left_capture_num in ap_video_preview.c (application\task_state_handling\state_video_preview\src) : 				temp_pic_size = pic_size[ap_state_config_quality_get()][ap_state_config_pic_size_get()];

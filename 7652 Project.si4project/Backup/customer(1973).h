@@ -400,7 +400,7 @@
 #define sensor_format			OV9712_RAW
 #endif
 
-#define SENSOR_FLIP 			0// 1		
+#define SENSOR_FLIP 			1		
 #define USE_G_SENSOR_NAME		G_SENSOR_DA380	
 #define USE_G_SENSOR_ACTIVE 	0
 #define CPU_DRAW_TIME_STAMP_BLACK_EDGE 0
